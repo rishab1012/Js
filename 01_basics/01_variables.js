@@ -8,5 +8,5 @@ userId = 20
 
 console.log(userName);
 console.log(userEmail);
-console.table([userName,userEmail,userId,userState,userCity])
+console.table([userName, userEmail, userId, userState, userCity])
 
