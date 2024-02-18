@@ -38,7 +38,7 @@ const myFunction = function(){
     console.log("hello World!");
 }
 
-console.log(typeof myFunction);
+// console.log(typeof myFunction);
 
 
 // type of value      Result 
@@ -49,3 +49,33 @@ console.log(typeof myFunction);
 // String                "string"
 // Object                "object"
 // Function              "function"
+
+// *************************
+
+// stack (Primitive), Heap(Non-Primitive)
+
+// In stack we take a copy of the data,we get the direct refernece in heap
+
+let myYoutubeName = "Rishab"
+
+let anotherName = myYoutubeName
+
+// console.log(anotherName);
+
+anotherName = "Johaan"
+
+// console.log(myYoutubeName);
+// console.log(anotherName);
+
+let user1 ={
+    name :"Rohaan",
+    userGmail : "rohaan@gmail.com"
+
+}
+
+let user2 = user1
+
+user2.userGmail = "newrohaan@gmail.com"
+
+console.log(user1);
+console.log(user2);
