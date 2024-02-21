@@ -29,11 +29,11 @@ myArr.shift()// It is used to remove the element from the starting of the array
 
 // console.log('A' , myArr);
 
-const  myn1 = myArr.slice(1, 3) // In slice the element will be printed from the mention rang excluding the last element and the array will not be changed 
+const  myn1 = myArr.slice(1, 3) // In slice the element will be printed from the mention rang excluding the last element and the array will not be changed (the orginal array will not be manipulated)
 // console.log(myn1);
 // console.log('B' , myArr);
 
-const myn2 = myArr.splice(1, 3) //in Splice the the element rang mention will be removed from the array and will be displayed 
+const myn2 = myArr.splice(1, 3) //in Splice the element rang mention will be removed from the array and will be displayed (the orginal array is manipulated )
 // console.log(myn2);
 // console.log('C' , myArr);
  
