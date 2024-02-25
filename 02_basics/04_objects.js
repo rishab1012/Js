@@ -48,10 +48,35 @@ const obj5 ={...obj1, ...obj2}
 
 //   console.log(user[0].email);
 
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty("isLogged"));
+// console.log(tinderUser.hasOwnProperty("isLogged"));
+
+
+const course ={
+    coursename : "js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+
+// course.courseInstructor
+
+const {courseInstructor: instructor} =course //de-structure objects
+
+console.log(instructor);
+
+// {   JSON format 
+//    "name": "rishab",       
+//    "coursename": "Js in hindi",
+//    "coursefee": "free"
+// }
+
+// [    API can be array format also
+//     {},
+//     {},
+//     {}
+// ]
