@@ -8,7 +8,7 @@ let isLoggedIn =true
 
 //number => 2 to power of 53
 // bigInt 
-// string can be used in '' and "" better be use with ""
+// string can be used in '' and "", better be use with ""
 // boolean  => trur / false
 // null => standlone value
 // undefined => (not defined value to varaible)
