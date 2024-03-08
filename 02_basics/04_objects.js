@@ -65,9 +65,9 @@ const course ={
 
 // course.courseInstructor
 
-const {courseInstructor: instructor} =course //de-structure objects
+const {price: pri} =course //de-structure objects
 
-console.log(instructor);
+console.log(pri);
 
 // {   JSON format 
 //    "name": "rishab",       
