@@ -96,3 +96,67 @@ let aNum = 123.8966
 // console.log(Math.round(9.6));
 // console.log(Math.min(9, 7,5,1,66));
 console.log(Math.max(9, 7,5,1,66));
+
+
+// *****************Function*************************************
+
+function sayMyName (){
+    console.log("R");
+    console.log("I");
+    console.log("S");
+    console.log("H");
+    console.log("A");
+    console.log("B");
+}
+
+sayMyName()
+
+// function addTwoNumber(number1, number2){
+//     console.log(number1+number2);
+// }
+
+// function addTwoNumber(number1,number2){
+//     let result=number1+number2
+//     return result
+    
+// }
+
+addTwoNumber(10,8)
+
+// function loginUsermessage(username ="Default"){
+//     if(!username){
+//         console.log("Please enter a username");
+//     }
+//     return `${username} just logged in`
+// }
+
+// console.log(loginUsermessage("rishab"));
+
+function calculateCartPrice(val1,valu2,...num1){
+    return num1
+}
+
+console.log(calculateCartPrice(200, 900, 6523 ,1506));
+
+const user ={
+    username:"rishab",
+    age:20
+}
+
+function handleobject(anyobject){
+    console.log(`Username is ${anyobject.username} and his age is ${anyobject.age}`);
+}
+
+handleobject({
+    username:"rishab",
+    age:20
+}) 
+
+const myNewArrays =[500, 600 ,900]
+
+function secondArrayOnly(getarray){
+     return getarray[1]
+}
+
+console.log(secondArrayOnly(myNewArrays));
+console.log(secondArrayOnly([652, 896, 745, 632]))
