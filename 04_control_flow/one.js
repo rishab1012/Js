@@ -33,16 +33,17 @@ const balance = 1000
 //     console.log("balance less than 1200");
 // }
 
-const userLoggedIn = true
-const debitCard= true
-const loggedFromGoggle =true
-const logeedFromEmail = false
 
-if( userLoggedIn && debitCard){
-    console.log("Allowed to buy");
-}
+// const userLoggedIn = true
+// const debitCard= true
+// const loggedFromGoggle =true
+// const logeedFromEmail = false
 
-if(logeedFromEmail || loggedFromGoggle){
-    console.log("User logged in");
-}
+// if( userLoggedIn && debitCard){
+//     console.log("Allowed to buy");
+// }
+
+// if(logeedFromEmail || loggedFromGoggle){
+//     console.log("User logged in");
+// }
 
