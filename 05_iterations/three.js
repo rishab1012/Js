@@ -28,3 +28,12 @@ map.set("FR", "France")
 for (const [key, value] of map) {
     console.log(key,":-",value);
 }
+
+const myObject ={
+    game1: "NFS",
+    game2:"GTA5"
+}
+
+// for (const [key, value] of object) { object cant be iterated using for of loop
+//     console.log(key,':-',value);
+// }
