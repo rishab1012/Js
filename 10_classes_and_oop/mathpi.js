@@ -13,7 +13,7 @@ const chai = {
     prof :"SD3",
 
     getHired: function(){
-        console.log(`code phate gaya!!!!!`);
+        console.log(`code phat gaya!!!!!`);
     }
 
 }
