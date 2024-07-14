@@ -30,5 +30,5 @@ class teacher extends user{
 const iphone = new teacher("iphone","iphone@gmail.com")
 // console.log(iphone.createId())
 
-i
+
 
